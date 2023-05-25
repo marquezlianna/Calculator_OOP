@@ -6,4 +6,17 @@ class Calculator:
         self.operation = None
         self.ans = None
      
+     # Ask the user to enter a number   
+    def get_input(self):
+        print("\n")
+        try:
+            self.num1 = float(input("Please enter your first number: "))
+            self.num2 = float(input("Please enter your second number: "))
+        except ValueError as error:
+            print("Invalid number input\n")
+            print(error)
+            print("\nTry Again!")
+            return False
+        return True
+     
     
