@@ -18,5 +18,9 @@ class Calculator:
             print("\nTry Again!")
             return False
         return True
+    
+    # Ask user to choose operation
+    def get_operation(self):
+        self.operation = input("Please enter an operation: +-*/ ")
      
     
