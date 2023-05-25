@@ -42,5 +42,11 @@ class Calculator:
         else:
             self.ans = "Invalid operation"
         return True
+    
+    # Print output
+    def print_output(self):
+        print('\033[1;35m'f"Answer: {self.ans}")
+    
+calculator = Calculator()
      
     
