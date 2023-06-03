@@ -1,0 +1,9 @@
+from Calculator import Calculator
+
+class InheritedCalculator(Calculator):
+   def calculator(self):
+        print("\n")
+        self.get_input()
+        self.get_operation()
+        self.perform_operation()
+        self.print_output() 
